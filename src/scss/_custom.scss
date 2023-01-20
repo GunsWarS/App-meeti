@@ -1,0 +1,35 @@
+//REESCRIBIR VARIABLES DE BOOTSTRAP
+
+$rojo:#F34F51;
+$verde: #0098AE;
+$oscuro: #212121;
+$gris: #B5B5B5;
+
+//ASIGNAR PALETA DE COLORES A BOOTSTRAP
+$primary: $rojo;
+$secondary: $verde;
+$dark: $oscuro;
+
+//TIPOGRAFIA 
+$display-font-weight: 900;
+$headings-font-weight: 700;
+
+
+
+/**Nav link**/
+
+
+$nav-link-padding-x:                1rem !default;
+$nav-link-font-size:                null !default;
+$nav-link-color:                    var(--#{$prefix}link-color) !default;
+$nav-link-hover-color:              var(--#{$prefix}link-hover-color) !default;
+
+
+
+
+// CARDS
+$card-border-color: transparent;//QUITA EL BORDE DE COLOR A LOS CARDS
+
+//IMPORTAR BOOTSTRAP
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

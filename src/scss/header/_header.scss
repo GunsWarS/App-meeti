@@ -1,0 +1,17 @@
+
+
+@use '../custom' as*;
+
+.header {
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+  @include media-breakpoint-up(md) {// EL INCLUDE PERMITE PODER UTILIZAR LOS mixins (md) TAMAÑO EN EL CUAL VA A MODIFICAR SU APARIENCIA LOS grid breakpoinst
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+    
+}
+
+.logo {
+  width: 10rem;  
+}

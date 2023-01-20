@@ -1,0 +1,15 @@
+{
+  "name": "03-meeti",
+  "version": "1.0.0",
+  "description": "Aprendiendo Boostrap 5 y SASS",
+  "main": "index.js",
+  "scripts": {
+    "compilar:sass": "sass --watch src/scss:build/css"
+  },
+  "author": "Francisco Tavera",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  }
+}
